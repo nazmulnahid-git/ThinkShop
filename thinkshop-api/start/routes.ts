@@ -9,8 +9,6 @@
 
 import router from '@adonisjs/core/services/router'
 import '#modules/emni/emni.route';
-import '#modules/emni/emni.route';
-import '#modules/emni/emni.route';
 
 router.get('/', async () => {
   return {
